@@ -1,0 +1,179 @@
+
+
+body{
+    background-color: rgb(44, 44, 44);
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(84, 84, 211);
+}
+
+/* fieldset{
+    width: 300px;
+    margin-top: 20px;
+    background-color: gray;
+    border-radius: 10px;
+} */
+
+#centrirovanie{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#button3{
+    background-color: rgb(84, 84, 211);
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 45px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 12px;
+}
+
+#button3:hover{
+    background-color: rgb(84, 84, 211);
+    transform: scale(1.1);
+}
+#button2:hover{
+    background-color: rgb(84, 84, 211);
+    transform: scale(1.1);
+}
+#button1:hover{
+    background-color: rgb(84, 84, 211);
+    transform: scale(1.1);
+}
+
+#button2{
+    background-color: rgb(84, 84, 211);
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 45px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 12px;
+}
+
+#button1{
+    background-color: rgb(84, 84, 211);
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 45px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 12px;
+}
+
+#container3{
+    width: 300px;
+    margin-top: 20px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 7px;
+}
+#container1{
+    width: 300px;
+    margin-top: 20px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 7px;
+}
+
+#container2{
+    width: 300px;
+    margin-top: 20px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 7px;
+}
+
+.inputNum{
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+
+}
+
+#container2 h2{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+
+#container1 h2{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+#container3 h2{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+#container1,
+#container2,
+#container3 {
+    margin-top: 5px;
+}
+
+#csszdanie78{
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 7px;
+    background-color: rgb(84, 84, 211);
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    font-family:  Changa, sans-serif;
+}
+
+#csszdanie78:hover{
+    background-color: rgb(84, 84, 211);
+    transform: scale(1.1);
+}
+
+#csszdanie46{
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 7px;
+    background-color: rgb(84, 84, 211);
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    font-family:  Changa, sans-serif;
+}
+
+#csszdanie46:hover{
+    background-color: rgb(84, 84, 211);
+    transform: scale(1.1);
+}
+
+#csszdanie13{
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 7px;
+    background-color: rgb(84, 84, 211);
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    font-family:  Changa, sans-serif;
+}
+
+#csszdanie13:hover{
+    background-color: rgb(84, 84, 211);
+    transform: scale(1.1);
+}
+
+#garaz{
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 7px;
+    background-color: rgb(84, 84, 211);
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    font-family:  Changa, sans-serif;
+}
+
+#garaz:hover{
+    background-color: rgb(84, 84, 211);
+    transform: scale(1.1);
+}

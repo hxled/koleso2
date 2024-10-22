@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="centrirovanie">
+        <div id="container1" style="font-family: Outfit, sans-serif;">
+    <!-- <fieldset> -->
+<h2>Obliczanie wyniku rownania x = a/b</h2>
+    Liczba A
+<input class="inputNum" type="text" id="numA1" value="0">
+<br><br>
+    Liczba B
+<input class="inputNum" type="text" id="numB1" value="0">
+<br><br>
+<div id="aPrzezB" style="margin-left: 40px; font-size: 20px;">0</div>
+<input class="oblicz" type="button" value="Oblicz" id="button1" style="font-family: Outfit, sans-serif;" onclick="aPrzezB();">
+<br><br>
+</div>
+<!-- </fieldset> -->
+<br><br>
+<!-- <fieldset> -->
+    <div id="container2" style="font-family: Outfit, sans-serif;">
+    <h2>Obliczanie wyniku rownania x = a/b + c/d </h2>
+    Liczba A
+<input class="inputNum" type="text" id="numA2" value="0">
+<br><br>
+    Liczba B
+<input class="inputNum" type="text" id="numB2" value="0">
+<br><br>
+    Liczba C
+<input class="inputNum" type="text" id="numC2" value="0">
+<br><br>
+    Liczba D
+<input class="inputNum" type="text" id="numD2" value="0">
+<br><br>
+
+<div id="aprzezBplusCPrzezD" style="margin-left: 40px; font-size: 20px;">0</div>
+
+<input class="oblicz" type="button" value="Oblicz" id="button2" style="font-family: Outfit, sans-serif;" onclick="aprzezBplusCPrzezD();">
+<br><br>
+<!-- </fieldset> -->
+</div>
+
+<br><br>
+<!-- <fieldset> -->
+    <div id="container3" style="font-family: Outfit, sans-serif;">
+    <h2>Obliczanie wyniku rownania x = (a+6)/(c-4)</h2>
+    Liczba A
+<input class="inputNum" type="text" id="numA3" value="0">
+<br><br>
+    Liczba C
+<input class="inputNum" type="text" id="numB3" value="0">
+<br><br>
+<div id="aplusprzezbminus" style="margin-left: 40px; font-size: 20px;">0</div>
+
+<input class="oblicz" type="button" value="Oblicz" id="button3" style="font-family: Outfit, sans-serif;" onclick="aplusprzezbminus();">
+<br><br>
+<!-- </fieldset> -->
+</div>
+</div>
+</body>
+</html>
